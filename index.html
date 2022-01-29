@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe App</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="mobile-container">
+        <nav class="navbar">
+            <div class="container-fluid">
+                <button><i class="bi bi-person-fill"></i></button>
+                <h3>My Fridge</h3>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="#">Features</a>
+                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link disabled">Disabled</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <header id="bar">
+            <input type="text" id="tags" placeholder="Search For a Recipe" />
+            <button id="search"><i class="fas fa-search"></i></button>
+        </header>
+        <h3 class="fav-title">Favorite Meal</h3>
+        <div class="fav-container">
+            <ul class="fav-food" id="fav-food">
+            </ul>
+        </div>
+
+        <!-- <div class="search_box">
+            <div class="search_btn"><i class="fas fa-search"></i></div>
+            <input type="text" class="input_search" placeholder="What are you looking for?">
+        </div> -->
+        <!-- <header id="bar" class="position-absolute top-50 start-50 translate-middle">
+            <input type="text" id="search-term" placeholder="Search For a Recipe" />
+            <button id="search"><i class="fas fa-search"></i></button>
+        </header> -->
+        <!-- <header id="bar">
+            <input type="text" id="tags" placeholder="Start Cooking!" />
+            <button id="tags"><i class="fas fa-search"></i></button>
+        </header> -->
+
+
+        <!-- <div class="meals" id="meals"> -->
+        <!-- <h3>Random Recipes</h3> -->
+        <!-- <div class="meal" style="width: 100%; height: 350px;">
+                <div class="row align-items-center">
+                    <ul>
+                        <li>
+                            <div class="col">
+                                <div class="card m-2" style="width: 10rem; height: 15rem ">
+                                    <img src="file:///Users/my-mac/Desktop/Recipe-img/poke.png" class="card-img-top"
+                                        alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title m-1">Card title</h5>
+                                        <div class="card-button">
+                                            <a href="index2.html"><button class="read py-1">Read More</button></a>
+                                            <button><i class="fa fa-heart"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="col">
+                                <div class="card m-2" style="width: 10rem; height: 15rem; ">
+                                    <img src="file:///Users/my-mac/Desktop/Recipe-img/poke.png" class="card-img-top"
+                                        alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title m-1">Card title</h5>
+                                        <div class="card-button">
+                                            <a href="index2.html"><button class="read py-1" href="">Read
+                                                    More</button></a>
+                                            <button><i class="fa fa-heart"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="col">
+                                <div class="card m-2" style="width: 10rem; height: 15rem;">
+                                    <img src="file:///Users/my-mac/Desktop/Recipe-img/poke.png" class="card-img-top"
+                                        alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title m-1">Card title</h5>
+                                        <div class="card-button">
+                                            <a href="index2.html"><button class="read py-1">Read More</button></a>
+                                            <button><i class="fa fa-heart"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="col">
+                                <div class="card m-2" style="width: 10rem; height: 15rem;">
+                                    <img src="file:///Users/my-mac/Desktop/Recipe-img/poke.png" class="card-img-top"
+                                        alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title m-1">Card title</h5>
+                                        <div class="card-button">
+                                            <a href="index2.html"><button class="read py-1">Read More</button></a>
+                                            <button><i class="fa fa-heart"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div> -->
+        <!-- </div> -->
+        <!-- </div> -->
+        <h3 class="food">Results</h3>
+        <div class="meals" id="meals">
+            <ul class="caca">
+
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- <div class="popup-container hidden" id="meal-popup">
+        <div class="popup">
+            <button id="close" class="close">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="meal-info" id="meal-info"></div>
+        </div>
+    </div> -->
+
+</body>
+
+</html>

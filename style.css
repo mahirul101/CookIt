@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Montserrat&family=Neonderthaw&family=Nunito&family=Roboto+Condensed&family=Rubik&family=Sedgwick+Ave&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+nav{
+    font-family: "Neonderthaw", cursive; 
+    background: #F4A261; 
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.navbar button{
+    background: none;
+    border: none;
+}
+body{
+    background: white;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Neonderthaw", cursive;
+    margin: 0;
+    min-height: 100vh;
+    
+}
+
+.mobile-container{
+   
+background:#EEEEEE;
+
+
+    width: 450px;
+    box-shadow:20px 20px 10px grey; 
+    border-style: solid;
+    border-radius: 10px; 
+
+}
+
+
+img{
+    max-width: 100%;
+}
+
+/*fav*/
+.fav-container .fav-food img{
+    width: 100px;
+    height: 100px;
+    /* border-style: groove;
+    border-color:rgb(138, 129, 141); */
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.fav-container .fav-food span{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.fav-container h4 {
+    font-family: 'Luxurious Roman', cursive;
+    font-size: 15px;
+    padding: 1rem;
+    text-align: start;
+}
+
+.fav-food {
+    display: flex;
+    list-style-type: none;
+    padding: 0; 
+    overflow-x: auto;
+  
+}
+
+.fav-container{
+    max-height: 1700px;
+}
+
+.inner{
+    display: grid;
+}
+
+.fav-food::-webkit-scrollbar {
+    display: none;
+}
+.fav-food li img{
+    min-width: 150px;
+    max-height: 150px;   
+    overflow: scroll;
+    object-fit: cover;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 10%;
+}
+
+.clear{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.fav-title {
+    font-family: 'Rubik', sans-serif;
+    font-size: 22px;
+    margin-left: 1rem;
+    text-align: start;
+    color: #6F767C;
+}
+
+#bar{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+
+/*Header*/
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+header input {
+    background-color: #eee;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center; 
+    font-family: inherit;
+    height: 50px;
+    width: 250px;
+    opacity: 70%;
+}
+
+header button {
+    background-color: transparent;
+    border: none;
+    color: rgb(138, 129, 141);
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+
+
+
+/*Meals*/
+/* .meals .random {
+    font-family: 'Luxurious Roman', cursive;
+    font-size: 15px;
+    padding: 1rem;
+    text-align: start;
+    display: inline-flex;
+} */
+
+/* .meals .meal{
+    display: flex;
+    list-style-type: none;
+    padding: 0; 
+    overflow: scroll; 
+} */
+
+/* .meals .meal::-webkit-scrollbar {
+    display: none;
+} */
+
+/* .meals ul{
+    display: inline-flex;
+    list-style-type: none;
+} */
+
+/* .meals h3{
+    font-family: 'Rubik', sans-serif;
+    font-size: 22px;
+    padding-top: 1rem;
+    margin-left: 1rem;
+    text-align: start;
+    color: #6F767C;
+} */
+
+/* .meal .card-body a{
+    font-size: 0.7em;
+
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card .read{
+    background-color:#F4A261;
+    font-size: 10px;
+    border-radius: 15px;
+}
+.card-button{
+    display: flex;
+    margin-left: 0;
+}
+
+.card-button button{
+    border: none;
+    background: none
+}
+
+.card .card-title{
+    font-family: 'Rubik', sans-serif;
+} */
+
+/*meal*/
+/* .popup-container{ */
+    /* position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0; */
+    /* background: white;
+    width: 450px;
+    max-height: 730px;
+    box-shadow:20px 20px 10px grey; 
+    border-style: solid;
+    border-radius: 10px; 
+    overflow: scroll; */
+
+/* } */
+
+/* .meal-info {
+    background-color: #fff;
+    max-width: 600px;
+    border-radius: 5px;
+    padding: 0 2rem;
+    max-width: 600px;
+    width: 100%;
+    position: relative;
+}
+
+.meal-info h1{
+    text-align: center;
+}
+
+.meal-info .close{
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+} */
+
+.meals{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0; 
+    overflow: scroll;
+    max-height: 400px; 
+    margin: 0;
+    
+}
+
+.meals li{
+    max-width: 50%;
+    padding: 10px;
+    border: grey;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    display: grid;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    
+}
+
+.meals li:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+.food{
+    font-family: 'Rubik', sans-serif;
+    font-size: 22px;
+    margin-left: 1rem;
+    text-align: start;
+    color: #6F767C;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.read{
+    background-color:#F4A261;
+    font-size: 10px;
+    border-radius: 15px;
+}
+
