@@ -1,4 +1,4 @@
-# Recipe-App
+# CookIt
 A recipe app that generates recipes based on the ingredient that is searched.
 
 ## Description
